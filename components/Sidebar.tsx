@@ -9,8 +9,8 @@ export default function Sidebar() {
 
   const handleLogout = async () => {
     try {
-      await api.post("/users/logout"); // backend endpoint to clear cookie
-      router.push("/login"); // redirect to login
+      await api.post("/users/logout");
+      router.push("/login");
     } catch (error) {
       console.error("Logout failed:", error);
     }

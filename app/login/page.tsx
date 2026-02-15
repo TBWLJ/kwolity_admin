@@ -24,7 +24,7 @@ export default function LoginPage() {
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <div className="p-8 bg-white rounded shadow-md w-96">
-        <h1 className="text-2xl font-bold mb-6 text-center">Kwolity Group Admin Login</h1>
+        <h1 className="text-2xl font-bold mb-6 text-center text-green-600">Kwolity Group Admin Login</h1>
         <input
           type="email"
           placeholder="Email"
@@ -42,7 +42,7 @@ export default function LoginPage() {
         {error && <p className="text-red-500 mb-4">{error}</p>}
         <button
           onClick={handleLogin}
-          className="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700"
+          className="w-full bg-green-600 text-white p-2 rounded hover:bg-green-700"
         >
           Login
         </button>
