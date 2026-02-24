@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://kwolity-backend.onrender.com/api",
+  baseURL: "https://api.kwolitygroupltd.com.ng/api",
   withCredentials: true,
 });
 
