@@ -289,6 +289,7 @@ export default function PropertiesPage() {
                   <select name="status" value={form.status} onChange={handleInput} className="input">
                     <option value="available">Available</option>
                     <option value="rent">For Rent</option>
+                    <option value="sale">For Sale</option>
                     <option value="sold">Sold</option>
                   </select>
                 </div>
